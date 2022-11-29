@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 940,
+          "bottomRow": 980,
           "containerStyle": "none",
           "snapRows": 85,
           "parentRowSpace": 1,
@@ -26,6 +26,59 @@
           "leftColumn": 0,
           "children": [
             {
+              "resetFormOnClick": false,
+              "boxShadow": "none",
+              "widgetName": "Button2",
+              "onClick": "{{navigateTo('https://github.com/leandro-25/estoque-basico.git', {},'NEW_WINDOW')}}",
+              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "displayName": "Button",
+              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+              "searchTags": [
+                "click",
+                "submit"
+              ],
+              "topRow": 0,
+              "bottomRow": 4,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 19.328125,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "buttonColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "text": "GitHub",
+              "isDisabled": false,
+              "key": "ycom5i5bpb",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "isDefaultClickDisabled": true,
+              "iconName": "git-branch",
+              "widgetId": "y9evuckf25",
+              "isVisible": true,
+              "recaptchaType": "V3",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "disabledWhenInvalid": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "buttonVariant": "PRIMARY",
+              "iconAlign": "left",
+              "placement": "CENTER"
+            },
+            {
               "widgetName": "Text1",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
@@ -34,8 +87,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 7,
-              "bottomRow": 16,
+              "topRow": 11,
+              "bottomRow": 20,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -86,8 +139,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 0,
-              "bottomRow": 7,
+              "topRow": 4,
+              "bottomRow": 11,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -304,7 +357,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 16,
+              "topRow": 20,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -424,7 +477,7 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 86,
+              "bottomRow": 90,
               "columnWidthMap": {
                 "task": 245,
                 "step": 62,

@@ -4085,6 +4085,7 @@
               "resetFormOnClick": false,
               "boxShadow": "none",
               "widgetName": "Button2",
+              "onClick": "{{navigateTo('https://github.com/leandro-25/estoque-basico.git', {},'NEW_WINDOW')}}",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -4099,7 +4100,11 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 19.328125,
-              "dynamicTriggerPathList": [],
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
               "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
@@ -4115,6 +4120,7 @@
               "isDeprecated": false,
               "rightColumn": 64,
               "isDefaultClickDisabled": true,
+              "iconName": "git-branch",
               "widgetId": "zjgse053l7",
               "isVisible": true,
               "recaptchaType": "V3",
@@ -4125,6 +4131,7 @@
               "disabledWhenInvalid": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "buttonVariant": "PRIMARY",
+              "iconAlign": "left",
               "placement": "CENTER"
             }
           ]
